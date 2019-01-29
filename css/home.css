@@ -1,0 +1,395 @@
+body{
+ font-family: 'Poppins', sans-serif !important;
+}
+.footer {
+ font-size: 14px;
+}
+.fontAwesome {
+ font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+.bbimg{
+ background-image: url(../img/onlineman.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 700px;
+}
+
+.mylogo{
+ width: 220px;
+}
+.modal-content {
+
+ position: relative;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-direction: column;
+ flex-direction: column;
+ width: 100%;
+ pointer-events: auto;
+ background-color: #fff;
+ background-clip: padding-box;
+ border: 0px solid rgba(0,0,0,.2);
+ border-radius: 0rem;
+ outline: 0;
+
+}
+.close {
+ float: right;
+ font-size: 1.5rem;
+ line-height: 1;
+ color: #fff;
+ text-shadow: 0 1px 0 #fff;
+ opacity: 1;
+ font-weight: 200;
+}
+.modal-header {
+ display: -ms-flexbox;
+ display: block;
+ -ms-flex-align: start;
+ align-items: flex-start;
+ -ms-flex-pack: justify;
+ justify-content: space-between;
+ padding: 1rem;
+ border-bottom: 0px solid #e9ecef;
+ border-top-left-radius: 0rem;
+ border-top-right-radius: 0rem;
+}
+.form-group input {
+ border: 0;
+ background-color: transparent;
+ border-bottom: 1px solid #ffffff;
+ border-radius: 0px;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ color: #ffffff;
+ opacity: .6; /* Firefox */
+ font-size: 12px;
+}
+.form-control:focus {
+
+ color: #3eb75a !important;
+ background-color: transparent;
+ /*    border-color: #80bdff;*/
+ outline: 0;
+ /*    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);*/
+
+}
+.modal-footer {
+
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-align: center;
+ align-items: center;
+ -ms-flex-pack: end;
+ justify-content: flex-end;
+ padding: 1rem;
+ border-top: 0px solid #e9ecef;
+
+}
+.form-control {
+ display: block;
+ width: 100%;
+ height: calc(2.25rem + 2px);
+ padding: .375rem .75rem;
+ font-size: 1rem;
+ line-height: 1.5;
+ color: #3eb75a;
+ background-color: #fff;
+ background-clip: padding-box;
+ border: 1px solid #ced4da;
+ border-radius: .25rem;
+ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.hh{
+ color: #3eb75a;
+}
+
+.pp{
+ font-size: 20px;
+ color: white;
+}
+.pp1, .ms{
+ font-size: 14px;
+ color: #3eb75a !important;
+}
+
+.pp3{
+ font-size: 20px;
+ color: black;
+}
+
+.ml{
+ margin-left: -258px;
+}
+
+.mt{
+ margin-top: 50px;
+}
+
+.btn-default {
+ color: #f3f2f2;
+ background-color: #3eb75a;
+ border-color: #5a8849;
+}
+.btn-white {
+ color: #3eb75a;
+ background-color: #ffffff;
+ border-color: #ffffff;
+}
+
+.btn {
+ display: inline-block;
+ padding: 6px 12px;
+ margin-bottom: 0;
+ font-size: 14px;
+ font-weight: normal;
+ line-height: 1.42857143;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: middle
+  touch-action: manipulation;
+ cursor: pointer;
+ margin-top: 23px;
+}
+
+.hh1{
+ color: #3eb75a;
+}
+
+.tc{
+ /* text-align: -webkit-center;*/
+ font-size: 14px;
+}
+
+.iw{
+ width: 140px;
+}
+.iw1{
+ width: 98px;
+}
+.iw2{
+ width: 100px;
+}
+
+.btn-default1{
+ color: #f3f2f2;
+ background-color: #3eb75a;
+ margin-top: 21px;
+}
+
+.bggroup10{
+ background-image: url(../img/keypad.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 350px;
+}
+.iw3{
+ width: 60px;
+}
+
+.wc{
+ color: white;
+}
+
+.wc1{
+ color: #fdeeee;
+ font-size: 13px;
+}
+
+.wch{
+ color: #fdeeee;
+ font-size: 20px;
+}
+
+.navbar-dark {
+ background-color: rgba(0, 0, 0, .3);
+ border-color: #455252;
+ font-size: 12px;
+}
+
+.navbar-dark button{
+ font-size: 12px;
+}
+.navbar-inverse .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+.mt3{
+ margin-top: -9px;
+}
+
+.navbar-nav > li > a {
+ padding-top: 31px;
+ padding-bottom: 16px;
+}
+.mtb{
+ margin-top: 23px;
+}
+
+.mt2{
+ margin-top: 90px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+ color: #f1e7e7;
+}
+
+
+
+.cmput {
+ padding: 7px 528px 10px 19px;
+ font-size: 21px;
+ border: solid #e7e8e9;
+ border-radius: 7px;
+ background-color: #e6e7e8ed;
+}
+
+.mtl{
+ margin-left: 235px;
+ margin-top: 29px;
+}
+
+.cmput1 {
+ padding: 12px 528px 107px 18px;
+ font-size: 21px;
+ border: solid #e7e8e9;
+ border-radius: 7px;
+ background-color: #e6e7e8ed;
+}
+
+.cmput2 {
+ padding: 7px 500px 10px 19px;
+ font-size: 21px;
+ border: solid #e7e8e9;
+ border-radius: 7px;
+ background-color: #e6e7e8ed;
+}
+
+
+.btn-default2 {
+ color: #f3f2f2;
+ background-color: #3eb75a;
+ margin-top: 21px;
+ padding: 4px 118px;
+ font-size: 24px;
+}
+
+.navblac {
+ background-color: #443c3cf5;
+ border-color: #455252;
+}
+
+.ffm{
+ font-family: Baloo+Tammudu|M+PLUS+Rounded+1c;
+}
+
+.clipath {
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+ clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 89%);
+}
+
+
+.modal-content{
+ background-color: #114824de;
+ color: #ffffff;
+}
+
+
+.modal-header-logo {
+ margin: 23px 8px -27px 24px;
+}
+
+
+.modal-body1 {
+ position: relative;
+ padding: 93px;
+ color: white;
+}
+
+
+.btn1 {
+ display: inline-block;
+ padding: 6px 51px;
+ margin-bottom: 0;
+ font-size: 18px;
+ font-weight: normal;
+ line-height: 1.428571;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: middle
+  touch-action: manipulation;
+ cursor: pointer;
+ margin-top: 23px;
+}
+
+.btn-default2 {
+ color: #f3f2f2;
+ background-color: #ffffffd1;
+ margin-top: 25px;
+ color: green;
+}
+
+.btn2 {
+ display: inline-block;
+ padding: 6px 62px;
+ margin-bottom: 0;
+ font-size: 17px;
+ font-weight: normal;
+ line-height: 1.42857143;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: middle
+  touch-action: manipulation;
+ cursor: pointer;
+ margin-top: 23px;
+}
+
+.close1 {
+ float: right;
+ font-size: 25px;
+ /* font-weight: bold; */
+ line-height: 1;
+ color: #fff9;
+ text-shadow: 0 1px 0 #fff;
+ filter: alpha(opacity=20);
+ opacity: 1.2;
+}
+
+.mrr {
+ margin-left: 129px;
+}
+.hr_colored {
+ color: #828282 !important;
+ background-color: #828282 !important;
+ height: 1px;
+}
+input#fname{
+ background-image:url(../img/avatar.png);
+ background-repeat:no-repeat;
+ background-position:6px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+ .bbimg{
+  background-image: url(../img/onlineman.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+ }
+
+ .bggroup10{
+ background-image: url(../img/keypad.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: auto;
+}
+ .clipath {
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+ clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+}
